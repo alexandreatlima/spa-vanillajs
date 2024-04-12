@@ -17,7 +17,7 @@ const render = () => {
 
 const navigateFn = (url) => {
   console.log(`Navigating to: ${url}`);
-  history.pushState({}, "", url);
+  history.replaceState({}, "", url);
   render();
 };
 

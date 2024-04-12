@@ -9,7 +9,6 @@ export function Home(navigateTo) {
       movieElement.innerHTML = `
             <h2>${movie.title}</h2>
             <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" />
-            <p>${movie.overview}</p>
             <button type="button" class="details-button" id="${movie.id}">Details</button>
           `;
       document.getElementById("root").appendChild(movieElement);
