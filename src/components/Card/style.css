@@ -1,0 +1,15 @@
+.mainContainerCard {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  border: 1px solid brown;
+}
+
+.cardImg {
+  width: 50%;
+  height: 50%;
+}
